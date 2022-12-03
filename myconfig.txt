@@ -1,0 +1,30 @@
+The hold-preferred flavor works similar to the HOLD_ON_OTHER_KEY_PRESS setting in QMK.
+The 'balanced' flavor is similar to the PERMISSIVE_HOLD setting, 
+and the tap-preferred flavor is similar to IGNORE_MOD_TAP_INTERRUPT.
+
+(Moonlander: ignore mod-tap ON, permissive hold OFF, retro tapping OFF, hold on other key press OFF)
+So, tap-preferred
+
+Default
+     hm: homerow_mods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS";
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick_tap_ms = <175>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
+    };
+  };
+
+Tap-preferred example
+    hm: homerow_mods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS";
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+        quick-tap-ms = <0>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
+      };
+    };
