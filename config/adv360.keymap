@@ -39,7 +39,7 @@
 
         default_layer {
             bindings = <
-   &kp ESC          &kp N1          &kp N2              &kp N3            &kp N4               &kp N5                        &none      &none      &kp N6     &kp N7         &kp N8     &kp N9     &kp N0  &kp BACKSPACE
+    &trans          &kp N1          &kp N2              &kp N3            &kp N4               &kp N5                        &none      &none      &kp N6     &kp N7         &kp N8     &kp N9     &kp N0  &kp BACKSPACE
    &kp TAB           &kp Q           &kp W               &kp E             &kp R                &kp T                &kp LC(PG_UP)     &tog 7       &kp Y      &kp U          &kp I      &kp O      &kp P        &kp DEL
  &sk LCTRL           &kp A           &kp S               &kp D             &kp F                &kp G                &kp LC(PG_DN)  &kp LCTRL    &kp LALT                             &kp LGUI  &kp RCTRL         &tog 8      &kp H             &kp J            &kp K                &kp L            &kp SEMI    &kp SQT
  &kp LSHFT  &mt LEFT_GUI Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V                &kp B                        &none      &none       &none      &none          &none  &kp PG_UP      &none          &none      &kp N  &mt LEFT_SHIFT M  &mt LCTRL COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_GUI SLASH  &kp ENTER
@@ -79,21 +79,21 @@
 
         layer_Mouse {
             bindings = <
-  &trans      &none      &none      &none      &none          &none            &none   &none       &none      &none          &none      &none   &none  &trans
-  &trans      &none   &kp HOME     &kp UP    &kp END      &kp PG_UP            &none   &none   &kp LC(Z)  &kp LC(X)      &kp LC(C)  &kp LC(V)   &none  &trans
- &kp ESC      &none   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PAGE_DOWN            &none   &none       &none                                &none   &none   &none   &none  &kp LEFT_WIN  &kp LALT  &kp LCTRL  &kp LSHIFT   &none
-  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)          &none            &none   &none       &none      &none          &none      &none   &none   &none   &none  &kp LEFT_WIN  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans
-  &trans      &none      &none      &none      &none          &none            &none   &none  &kp DELETE  &kp ENTER  &kp BACKSPACE      &none   &none   &none   &none         &none
+  &trans           &none      &none             &none              &none                 &none                            &none    &none   &none                 &none                  &none             &none              &none  &trans
+  &trans       &kp GRAVE  &kp TILDE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET         &kp BACKSLASH                            &none    &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+ &kp ESC  &kp UNDERSCORE  &kp MINUS          &kp PLUS          &kp EQUAL              &kp PIPE                            &none    &none   &none                                                          &none              &none   &none  &kp SPACE  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &none
+  &trans   &kp LESS_THAN     &kp GT    &kp LEFT_BRACE    &kp RIGHT_BRACE             &kp SLASH                            &none    &none   &none                 &none                  &none             &none              &none   &none  &kp SPACE  &kp LEFT_SHIFT  &kp LCTRL        &kp LALT         &kp LWIN  &trans
+  &trans           &none      &none             &none              &none  &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS  &kp ESC   &none                 &none                 &trans         &kp SPACE              &none   &none      &none           &none
             >;
         };
 
         layer_FN {
             bindings = <
-  &trans      &none      &none      &none      &none          &none            &none   &none       &none      &none          &none      &none   &none  &trans
-  &trans      &none   &kp HOME     &kp UP    &kp END      &kp PG_UP            &none   &none   &kp LC(Z)  &kp LC(X)      &kp LC(C)  &kp LC(V)   &none  &trans
- &kp ESC      &none   &kp LEFT   &kp DOWN  &kp RIGHT  &kp PAGE_DOWN            &none   &none       &none                                &none   &none   &none   &none  &kp LEFT_WIN  &kp LALT  &kp LCTRL  &kp LSHIFT   &none
-  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)          &none            &none   &none       &none      &none          &none      &none   &none   &none   &none  &kp LEFT_WIN  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans
-  &trans      &none      &none      &none      &none          &none            &none   &none  &kp DELETE  &kp ENTER  &kp BACKSPACE      &none   &none   &none   &none         &none
+  &trans   &none   &none   &none   &none      &none              &none    &none   &none   &none   &none   &none   &none  &trans
+  &trans   &none  &kp F7  &kp F8  &kp F9    &kp F12              &none    &none   &none   &none   &none   &none   &none  &trans
+ &kp ESC   &none  &kp F4  &kp F5  &kp F6    &kp F11              &none    &none   &none                   &none   &none   &none   &none  &kp LEFT_SHIFT  &mt LCTRL F5  &kp LALT  &kp LGUI   &none
+  &trans   &none  &kp F1  &kp F2  &kp F3    &kp F10              &none    &none   &none   &none   &none   &none   &none   &none   &none           &none        &kp F2     &none     &none  &trans
+  &trans   &none   &none   &none   &none  &kp SPACE            &kp TAB  &kp ESC  &trans   &none   &none   &none   &none   &none   &none           &none
             >;
         };
 
@@ -109,11 +109,11 @@
 
         layer_NoHold {
             bindings = <
-   &kp ESC          &kp N1          &kp N2              &kp N3            &kp N4               &kp N5                        &none      &none      &kp N6     &kp N7         &kp N8     &kp N9     &kp N0  &kp BACKSPACE
-   &kp TAB           &kp Q           &kp W               &kp E             &kp R                &kp T                &kp LC(PG_UP)     &tog 7       &kp Y      &kp U          &kp I      &kp O      &kp P        &kp DEL
- &sk LCTRL           &kp A           &kp S               &kp D             &kp F                &kp G                &kp LC(PG_DN)  &kp LCTRL    &kp LALT                             &kp LGUI  &kp RCTRL         &tog 8      &kp H             &kp J            &kp K                &kp L            &kp SEMI    &kp SQT
- &kp LSHFT  &mt LEFT_GUI Z  &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V                &kp B                        &none      &none       &none      &none          &none  &kp PG_UP      &none          &none      &kp N  &mt LEFT_SHIFT M  &mt LCTRL COMMA  &mt LEFT_ALT PERIOD  &mt LEFT_GUI SLASH  &kp ENTER
- &kp LCTRL           &none    &kp LEFT_GUI        &kp LEFT_ALT           &kp ESC  &lt undefined SPACE            &lt undefined TAB    &kp ESC  &kp DELETE  &kp ENTER  &kp BACKSPACE   &kp LEFT   &kp DOWN         &kp UP  &kp RIGHT             &none
+ &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &none   &none  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0  &kp BACKSPACE
+  &trans   &kp Q   &kp W   &kp E   &kp R   &kp T            &kp LC(PG_UP)  &tog 7   &kp Y   &kp U   &kp I     &kp O     &kp P        &kp DEL
+  &trans   &kp A   &kp S   &kp D   &kp F   &kp G            &kp LC(PG_DN)  &trans  &trans                    &trans    &trans         &tog 8      &kp H   &kp J      &kp K       &kp L   &kp SEMI    &kp SQT
+  &trans   &kp Z   &kp X   &kp C   &kp V   &kp B                    &none   &none  &trans   &none   &none    &trans     &none          &none      &kp N   &kp M  &kp COMMA  &kp PERIOD  &kp SLASH  &kp ENTER
+  &trans  &trans  &trans  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN         &kp UP  &kp RIGHT   &none
             >;
         };
 
