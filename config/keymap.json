@@ -21,11 +21,12 @@
        "&kp LSHFT", "&mt LEFT_GUI Z", "&mt LEFT_ALT X", "&mt LEFT_CONTROL C", "&mt LEFT_SHIFT V",               "&kp B",                       "&none",     "&none",      "&none",     "&none",         "&none", "&kp PG_UP",     "&none",         "&none",     "&kp N", "&mt LEFT_SHIFT M", "&mt LCTRL COMMA", "&mt LEFT_ALT PERIOD", "&mt LEFT_GUI SLASH", "&kp ENTER",
        "&kp LCTRL",          "&none",   "&kp LEFT_GUI",       "&kp LEFT_ALT",          "&kp ESC", "&lt undefined SPACE",           "&lt undefined TAB",   "&kp ESC", "&kp DELETE", "&kp ENTER", "&kp BACKSPACE",  "&kp LEFT",  "&kp DOWN",        "&kp UP", "&kp RIGHT",            "&none"
     ], [
-        "&trans",       "&kp N1",       "&kp N2",    "&kp N3",     "&kp N4",   "&kp N5",            "&trans",     "&mo 3",    "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY",  "&kp MINUS",
-        "&trans",        "&none",        "&none",     "&none",      "&kp R",    "&kp T",             "&none",     "&none",     "&kp Y",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",   "&kp BSLH",
-       "&kp ESC", "&kp LEFT_WIN",     "&kp LALT", "&kp LCTRL", "&kp LSHIFT",    "&none",             "&none", "&kp LCTRL",  "&kp LALT",                                    "&kp LGUI",       "&kp RCTRL",      "&none",    "&kp H", "&kp KP_N4", "&kp KP_N5", "&kp KP_N6",  "&kp KP_PLUS",   "&kp SQT",
-        "&trans", "&kp LEFT_WIN", "&kp LEFT_ALT", "&kp LCTRL", "&kp LSHIFT",    "&none",             "&none",     "&none",  "&kp HOME",      "&none",        "&none",     "&kp PG_UP",           "&none",      "&none",    "&kp N", "&kp KP_N1", "&kp KP_N2", "&kp KP_N3", "&kp KP_ENTER", "&kp RSHFT",
-        "&trans",        "&none",       "&trans",    "&trans",      "&none", "&kp BSPC",           "&kp DEL",   "&kp END", "&kp PG_DN",  "&kp ENTER",    "&kp KP_N0",        "&kp UP",        "&kp DOWN", "&kp KP_DOT", "&kp RBKT",     "&mo 2"
+        "&trans",         "&none",         "&none",      "&none",       "&none",     "&none",              "&none",     "&none",    "&none",  "&none",  "&none",  "&none",  "&none",   "&trans",
+        "&trans",         "&none",         "&none",      "&none",       "&none",     "&none",              "&none",     "&none",    "&kp MINUS",   "&kp N7",     "&kp N8",      "&kp N9",     "&none",    "&trans",
+       "&kp ESC",  "&kp LEFT_WIN",      "&kp LALT",  "&kp LCTRL",  "&kp LSHIFT",     "&none",              "&none",     "&trans",   "&trans", "&none",  "&none",       "&none",     "&kp PLUS",  "&kp N4",  "&kp N5",  "&kp N6",   "&kp ASTERISK",    "&none",
+        "&trans",  "&kp LEFT_WIN",  "&kp LEFT_ALT",  "&kp LCTRL",  "&kp LSHIFT",     "&none",              "&none",     "&none",    "&trans",       "&none",         "&none",      "&trans",            "&none",       "&none",     "&none",  "&kp N1",  "&kp N2",  "&kp N3",  "&SLASH", "&trans",
+        "&trans",         "&none",        "&trans",     "&trans",       "&none",     "&none",              "&none",     "&none",    "&COMMA",   "&PERIOD",     "&N0",         "&trans",         "&trans",  "&trans",  "&trans",      "&trans"
+      
     ], [
        "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5", "&kp F6",           "&tog 1",  "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",  "&none", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
