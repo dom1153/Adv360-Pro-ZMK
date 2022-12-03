@@ -15,9 +15,9 @@
   ],
   "layers": [
     [
-         "&kp ESC",         "&kp N1",         "&kp N2",             "&kp N3",           "&kp N4",              "&kp N5",                      "&tog 1",     "&mo 3",     "&kp N6",    "&kp N7",        "&kp N8",    "&kp N9",    "&kp N0", "&kp BACKSPACE",
-         "&kp TAB",          "&kp Q",          "&kp W",              "&kp E",            "&kp R",               "&kp T",               "&kp LC(PG_UP)",     "&none",      "&kp Y",     "&kp U",         "&kp I",     "&kp O",     "&kp P",       "&kp DEL",
-       "&sk LCTRL",          "&kp A",          "&kp S",              "&kp D",            "&kp F",               "&kp G",               "&kp LC(PG_DN)", "&kp LCTRL",   "&kp LALT",                                "&kp LGUI", "&kp RCTRL",         "&none",     "&kp H",            "&kp J",           "&kp K",               "&kp L",           "&kp SEMI",   "&kp SQT",
+         "&kp ESC",         "&kp N1",         "&kp N2",             "&kp N3",           "&kp N4",              "&kp N5",                       "&none",     "&none",     "&kp N6",    "&kp N7",        "&kp N8",    "&kp N9",    "&kp N0", "&kp BACKSPACE",
+         "&kp TAB",          "&kp Q",          "&kp W",              "&kp E",            "&kp R",               "&kp T",               "&kp LC(PG_UP)",    "&tog 7",      "&kp Y",     "&kp U",         "&kp I",     "&kp O",     "&kp P",       "&kp DEL",
+       "&sk LCTRL",          "&kp A",          "&kp S",              "&kp D",            "&kp F",               "&kp G",               "&kp LC(PG_DN)", "&kp LCTRL",   "&kp LALT",                                "&kp LGUI", "&kp RCTRL",        "&tog 8",     "&kp H",            "&kp J",           "&kp K",               "&kp L",           "&kp SEMI",   "&kp SQT",
        "&kp LSHFT", "&mt LEFT_GUI Z", "&mt LEFT_ALT X", "&mt LEFT_CONTROL C", "&mt LEFT_SHIFT V",               "&kp B",                       "&none",     "&none",      "&none",     "&none",         "&none", "&kp PG_UP",     "&none",         "&none",     "&kp N", "&mt LEFT_SHIFT M", "&mt LCTRL COMMA", "&mt LEFT_ALT PERIOD", "&mt LEFT_GUI SLASH", "&kp ENTER",
        "&kp LCTRL",          "&none",   "&kp LEFT_GUI",       "&kp LEFT_ALT",          "&kp ESC", "&lt undefined SPACE",           "&lt undefined TAB",   "&kp ESC", "&kp DELETE", "&kp ENTER", "&kp BACKSPACE",  "&kp LEFT",  "&kp DOWN",        "&kp UP", "&kp RIGHT",            "&none"
     ], [
